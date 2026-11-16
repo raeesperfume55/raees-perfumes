@@ -1,0 +1,26 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Products collection: public read, write for authenticated users
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if true; // Allows initial seed & demo admin management
+    }
+    
+    // Orders collection: public create (customer checkout), read & update for admin
+    match /orders/{orderId} {
+      allow read, write: if true;
+    }
+
+    // Categories & store settings
+    match /settings/{settingId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Default catch-all
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

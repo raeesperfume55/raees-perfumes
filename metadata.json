@@ -1,0 +1,6 @@
+{
+  "name": "Raees Luxury Perfumes",
+  "description": "Full-stack e-commerce boutique for luxury fragrance brand Raees featuring product catalog, shopping cart, checkout with COD/online payment, WhatsApp concierge, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

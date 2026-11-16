@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cinzel', serif;
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0c0d12;
+    color: #f1f2f6;
+  }
+
+  h1, h2, h3, .font-serif-title {
+    font-family: var(--font-serif);
+    letter-spacing: 0.05em;
+  }
+
+  .font-editorial {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0e12;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2d38;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Luxury gold glow and borders */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fce8a5 0%, #d4af37 50%, #aa8212 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #dfbc4b 0%, #c49a26 100%);
+}
+
+.gold-border {
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+.luxury-card {
+  background: rgba(19, 21, 29, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  border-color: rgba(212, 175, 55, 0.4);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7), 0 0 20px 0 rgba(212, 175, 55, 0.08);
+  transform: translateY(-3px);
+}
+
+/* ===== Site-wide Smooth Animations ===== */
+
+/* Smooth scrolling everywhere */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Gentle fade-up entrance for page sections */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section,
+main > * {
+  animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Reusable fade-in class for anything (add className="animate-fade-in-up") */
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Subtle lift on every button and link, site-wide */
+button,
+a {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+button:hover,
+a:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0) scale(0.97);
+}
+
+/* Images gently zoom on hover wherever used inside a card */
+.luxury-card img,
+article img {
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover img,
+article:hover img {
+  transform: scale(1.05);
+}
+
+/* Soft pulsing glow, available via class="animate-glow" */
+@keyframes softGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 20px 4px rgba(212, 175, 55, 0.3);
+  }
+}
+
+.animate-glow {
+  animation: softGlow 2.5s ease-in-out infinite;
+}

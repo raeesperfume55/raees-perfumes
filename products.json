@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Sahib",
+    "category": "men",
+    "price": 2500,
+    "stock": 30,
+    "description": "A tribute to classic masculinity and understated power. Distinctive, captivating, and built to endure—make Sahib your signature scent.",
+    "image": "https://files.catbox.moe/3fmlts.jpeg"
+  },
+  {
+    "name": "Zehr",
+    "category": "unisex",
+    "price": 2500,
+    "stock": 30,
+    "description": "The ultimate guilty pleasure in a bottle. Unapologetically bold and dangerously smooth—make Zehr your signature.",
+    "image": "https://files.catbox.moe/86ummt.jpeg"
+  },
+  {
+    "name": "City of stars",
+    "category": "men",
+    "price": 2500,
+    "stock": 30,
+    "description": "Inspired by endless nights beneath a glowing skyline. City of Star blends luminous, velvety warmth with a captivating trail that makes every moment feel cinematic.",
+    "image": "https://files.catbox.moe/81g6u6.jpeg"
+  },
+  {
+    "name": "Legacy oud j.",
+    "category": "men",
+    "price": 2500,
+    "stock": 30,
+    "description": "Crafted for those who leave a mark wherever they go. Legacy Oud balances spiced floral elegance with rich, earthy woods for an unforgettable signature that endures all day.",
+    "image": "https://files.catbox.moe/b32qyi.jpeg"
+  },
+  {
+    "name": "Axe choclate",
+    "category": "men",
+    "price": 2500,
+    "stock": 30,
+    "description": "Smooth, confident, and impossible to resist. Crafted with decadent cocoa notes and a warm, lingering finish, Axe Chocolate turns everyday wear into an instant attraction.",
+    "image": "https://files.catbox.moe/yhwmer.jpeg"
+  },
+  {
+    "name": "Pur oud lv",
+    "category": "men",
+    "price": 2500,
+    "stock": 30,
+    "description": "Unfiltered luxury bottled for true oud lovers. Deep, leathery, and intensely resinous, Pur Oud commands attention with effortless prestige that lingers for hours.",
+    "image": "https://files.catbox.moe/i6g9qi.jpeg"
+  },
+  {
+    "name": "Oud wood",
+    "category": "unisex",
+    "price": 2500,
+    "stock": 30,
+    "description": "Dark, sensual woods meet a subtle spark of exotic spice. Crafted for unmistakable elegance, Oud Wood leaves a rich, magnetic trail that commands attention without ever overpowering.",
+    "image": "https://files.catbox.moe/pbg6kk.jpeg"
+  },
+  {
+    "name": "Purple oud",
+    "category": "women",
+    "price": 2500,
+    "stock": 30,
+    "description": "Where radiant citrus meets dark, regal woods. Sharp, charismatic, and effortlessly bold, Purple Oud leaves an intoxicating trail designed for those who refuse to blend in.",
+    "image": "https://files.catbox.moe/n4v9a7.jpeg"
+  },
+  {
+    "name": "Romance rasasi",
+    "category": "women",
+    "price": 2500,
+    "stock": 30,
+    "description": "Delicate, luminous, and endlessly captivating from morning till night. Romance blends crisp floral freshness with creamy woody warmth for an unforgettable signature of pure elegance.",
+    "image": "https://files.catbox.moe/km4jst.jpeg"
+  },
+  {
+    "name": "Black oud",
+    "category": "men",
+    "price": 2500,
+    "stock": 30,
+    "description": "Pure darkness refined into liquid luxury. Deep, smoky, and intensely captivating—make Black Oud your signature scent.",
+    "image": "https://files.catbox.moe/u6d7mo.jpeg"
+  },
+  {
+    "name": "Promise oud",
+    "category": "women",
+    "price": 2500,
+    "stock": 30,
+    "description": "A vow of pure elegance and lasting intensity. Vibrant, smoky, and deeply captivating—make Promise Oud your signature scent.",
+    "image": "https://files.catbox.moe/i6g9qi.jpeg"
+  },
+  {
+    "name": "Romance",
+    "category": "women",
+    "price": 2500,
+    "stock": 30,
+    "description": "Pure affection bottled in every drop. Radiant, tender, and effortlessly unforgettable—make Romance your signature scent.",
+    "image": "https://files.catbox.moe/62y3gn.jpeg"
+  },
+  {
+    "name": "Sheik oud",
+    "category": "men",
+    "price": 2500,
+    "stock": 30,
+    "description": "Pure royalty bottled in every drop. Rich, regal, and deeply captivating—make Sheikh Oud your signature scent",
+    "image": "https://files.catbox.moe/v3n8jd.jpeg"
+  },
+  {
+    "name": "Royal oud",
+    "category": "women",
+    "price": 2500,
+    "stock": 30,
+    "description": "Crafted for those who command the room with quiet authority and timeless taste. Rich green aromatics meet warm, smoky woods in Royal Oud, leaving an unforgettable aura of prestige all day long.",
+    "image": "https://files.catbox.moe/3gdrr2.jpeg"
+  },
+  {
+    "name": "Tobacco oud",
+    "category": "unisex",
+    "price": 2500,
+    "stock": 30,
+    "description": "Raw warmth refined into liquid seduction. Smoky, rich, and deeply captivating—make Tobacco Oud your signature scent.",
+    "image": "https://files.catbox.moe/14cmao.jpeg"
+  },
+  {
+    "name": "Azzaro chrome",
+    "category": "men",
+    "price": 2500,
+    "stock": 30,
+    "description": "Pure freshness bottled in every drop. Crisp, timeless, and endlessly invigorating—make Azzaro Chrome your daily signature.",
+    "image": "https://files.catbox.moe/6qprwo.jpeg"
+  },
+  {
+    "name": "Bidun esam",
+    "category": "unisex",
+    "price": 2500,
+    "stock": 30,
+    "description": "A masterpiece that needs no introduction. Intense, captivating, and endlessly regal—make Bidun Esam your signature scent.",
+    "image": "https://files.catbox.moe/zpgo0y.jpeg"
+  },
+  {
+    "name": "Valvet desert oud",
+    "category": "unisex",
+    "price": 2500,
+    "stock": 30,
+    "description": "Untamed luxury distilled into liquid gold. Deep, resinous woods meet sensual soft musk in Velvet Desert Oud, leaving an unforgettable, commanding trail built for grand entrances.",
+    "image": "https://files.catbox.moe/7gxh6h.jpeg"
+  },
+  {
+    "name": "Chanel",
+    "category": "women",
+    "price": 2500,
+    "stock": 30,
+    "description": "Timeless prestige bottled in every drop. Crisp, refined, and endlessly captivating—make Chanel your signature scent.",
+    "image": "https://files.catbox.moe/8t8ii9.jpeg"
+  },
+  {
+    "name": "Bakhoor",
+    "category": "men",
+    "price": 2500,
+    "stock": 30,
+    "description": "Where sacred resins meet velvety Damask rose and creamy sandalwood smoke. Bakhoor transforms an ancient ritual into a wearable masterpiece—bold, grounding, and effortlessly regal.",
+    "image": "https://files.catbox.moe/obat8v.jpeg"
+  },
+  {
+    "name": "Baccarat 540 hs",
+    "category": "unisex",
+    "price": 2500,
+    "stock": 30,
+    "description": "A radiant alchemy of golden saffron, airy jasmine, and warm mineral ambergris grounded by crisp cedarwood. Baccarat 540 HS creates an intoxicating, crystalline aura that turns heads everywhere you go.",
+    "image": "https://files.catbox.moe/m1xjiw.jpeg"
+  },
+  {
+    "name": "Chanel chance",
+    "category": "women",
+    "price": 2500,
+    "stock": 30,
+    "description": "Pure optimism bottled in every drop. Sparkling, feminine, and endlessly charming—make Chanel Chance your signature scent.",
+    "image": "https://files.catbox.moe/pl5qha.jpeg"
+  },
+  {
+    "name": "Coco madmonielle",
+    "category": "women",
+    "price": 2500,
+    "stock": 30,
+    "description": "Designed for the independent woman who commands attention with effortless grace and unmistakable style. Crisp citrus freshness meets deep, magnetic warmth in Coco Mademoiselle, leaving an iconic aura wherever you go.",
+    "image": "https://files.catbox.moe/q67fbu.jpeg"
+  },
+  {
+    "name": "Ch men",
+    "category": "men",
+    "price": 2500,
+    "stock": 30,
+    "description": "Crafted for the modern man who balances adventure with timeless elegance and quiet confidence. Aromatic spices meet velvety suede and warm woods in CH Men, leaving an unforgettable aura of sophistication.",
+    "image": "https://files.catbox.moe/yefz25.jpeg"
+  },
+  {
+    "name": "Oud e Hussiani",
+    "category": "unisex",
+    "price": 2500,
+    "stock": 30,
+    "description": "Crafted with profound respect for classic Eastern perfumery, blending sacred frankincense with creamy sandalwood and dark woods. Oud-e-Hussaini radiates quiet nobility and lasting devotion in every drop.",
+    "image": "https://files.catbox.moe/mne8sr.jpeg"
+  },
+  {
+    "name": "Azzaro",
+    "category": "unisex",
+    "price": 2500,
+    "stock": 30,
+    "description": "Crafted for the confident man who values enduring style over fleeting trends. Invigorating herbs meet warm spices and earthy woods in Azzaro, leaving a sharp, unforgettable impression from morning till night",
+    "image": "https://files.catbox.moe/iiqhxf.jpeg"
+  },
+  {
+    "name": "Oud base",
+    "category": "unisex",
+    "price": 2500,
+    "stock": 30,
+    "description": "Stripped down to the raw soul of traditional Eastern perfumery—dark, velvety woods grounded by smooth musk and patchouli. Oud Base wraps the skin in an unmistakable aura of quiet power that lingers for hours.",
+    "image": "https://files.catbox.moe/r3ema5.jpeg"
+  }
+]
