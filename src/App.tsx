@@ -151,7 +151,7 @@ function MainApp() {
                   className="group relative aspect-[4/3] sm:aspect-[16/10] rounded-2xl overflow-hidden cursor-pointer border border-[#d4af37]/30 shadow-xl"
                 >
                   <img
-                    src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80"
+                    src="https://files.catbox.moe/zpgo0y.jpeg"
                     alt="Unisex and Oud"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 filter brightness-75"
                   />
